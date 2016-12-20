@@ -11,10 +11,10 @@ function multiplier(num1, num2) {
   return num1 * num2;
 }
 
-// let doubler = createMultiplier(2);
-function doubler(num) {
-  return createMultiplier(2)(num);
-}
+var doubler = createMultiplier(2);
+// function doubler(num) {
+//   return createMultiplier(2)(num);
+// }
 
 // let tripler = createMultiplier(3);
 function tripler(num) {
